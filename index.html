@@ -12,32 +12,31 @@
         hello
     </div>
 
-
-    <!-- <script>
+    <script>
         // Plugin Settings
         var TOPOL_OPTIONS = {
             id: "#app",
             authorize: {
-                apiKey: "YOUR_API_KEY",
+                apiKey: "864BzluuMtCs9JKB2uzF3CwjAkzpSYW1eCT4swKsVaP9oqId0m6Ygq32EWNa",
                 userId: "user-1",
             },
             language: "en",
             templateId: 1,
             callbacks: {
-              onSaveAndClose: function(json, html) {
-                // HTML of the email
-                console.log(html);
-                // JSON object of the email
-                console.log(json);
-                // Implement your own close callback
-                // Data variable contains the response data of the save request
-              },
-              onSave: function(json, html) {
-                // HTML of the email
-                console.log(html);
-                // JSON object of the email
-                console.log(json);
-              },
+                onSaveAndClose: function (json, html) {
+                    // HTML of the email
+                    console.log(html);
+                    // JSON object of the email
+                    console.log(json);
+                    // Implement your own close callback
+                    // Data variable contains the response data of the save request
+                },
+                onSave: function (json, html) {
+                    // HTML of the email
+                    console.log(html);
+                    // JSON object of the email
+                    console.log(json);
+                },
             }
         };
 
@@ -46,7 +45,7 @@
     <script>
         // Plugin start
         TopolPlugin.init(TOPOL_OPTIONS);
-    </script> -->
+    </script>
 
 </body>
 
